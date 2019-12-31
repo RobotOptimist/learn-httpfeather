@@ -8,7 +8,7 @@
           </svg>
         </button>
       </div>
-      <ul :class="{ 'max-h-none': isHidden, 'p-2 border-gray-700 border max-h-full transition-max-height': !isHidden }" class="absolute leading-loose mt-1 rounded-lg font-bold bg-green-500 text-white w-4/5 transition-250 overflow-y-hidden">
+      <ul :class="{ 'max-h-none': isHidden, 'p-2 max-h-full transition-max-height': !isHidden }" class="absolute leading-loose mt-1 rounded-lg font-bold bg-green-500 text-white w-4/5 transition-250 overflow-y-hidden">
         <li><a href="#">Hello World</a></li>
         <li><a href="#">MVC</a></li>
         <li><a href="#">Razor Page</a></li>
