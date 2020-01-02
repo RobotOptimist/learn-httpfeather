@@ -2,7 +2,7 @@
   <div class="p-10 pt-0">
     <h1 class="mt-6 text-5xl text-green-600 font-semibold leading-tight text-center">Learn .NET Feather HTTP</h1>
     <div class="lg:flex">
-      <div class="lg:max-w-sm lg:w-full">
+      <div class="lg:max-w-sm lg:w-full hidden lg:block">
         <topics-list></topics-list>
       </div>
       <div class="lg:flex flex-wrap">
