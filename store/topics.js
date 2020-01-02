@@ -26,7 +26,7 @@ export const state = () => ({
                 description: 'How to receive data from an HTML form'
             },
             {
-                title: 'Receive/Send files',
+                title: 'Receive or Send files',
                 category: 'Examples',
                 description: 'Shows how to receive and send files'
             },
