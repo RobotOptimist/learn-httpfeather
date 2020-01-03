@@ -14,8 +14,20 @@ export default {
 }
 </script>
 
-<style>
+<style lang="postcss">
   .h1 {
     @apply text-5xl text-green-600 font-semibold;
+  }
+  .h2 {
+    @apply text-4xl text-green-600
+  }
+  .h3 {
+    @apply text-3xl text-green-600
+  }
+  .code {
+    @apply bg-gray-400 p-1 font-mono
+  }
+  ol {
+    @apply list-decimal list-inside
   }
 </style>

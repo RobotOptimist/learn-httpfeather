@@ -1,26 +1,36 @@
 <template>
-  <div class="p-10 pt-0">
-    <h1 class="mt-6 h1 leading-tight text-center">Learn .NET Feather HTTP</h1>
-    <div class="lg:flex lg:justify-center w-full">
-      <div class="lg:max-w-md lg:w-1/5 hidden lg:block">
-        <topics-list></topics-list>
-      </div>
+  <div class="ml-10 p-10 pt-0">    
+    <div class="lg:flex lg:justify-center w-full">      
       <div class="lg:w-2/3 mt-6">
         <section>
           <div class="ml-10">
-            <h2 class="text-4xl text-green-600 text-center">Getting Started</h2>
-            <h3 class="text-3xl text-green-600 text-center">Download VS Code</h3>
-            <p>We recommend using VS Code in order to get a consistent experience with what we describe in these docs.
+            <h1 class="mt-6 h1 leading-tight text-center">Learn .NET Feather HTTP</h1>
+            <h2 class="h2 text-center">Getting Started</h2>
+            <h3 class="h3 text-center">Download VS Code</h3>
+            <p class="p-8">We recommend using VS Code in order to get a consistent experience with what we describe in these docs.
             You can get VS Code by clicking the link. It will open to the VS Code download page in a new tab.</p>
             <p class="text-center">
               <a class="underline" href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">Download VS Code</a>
             </p>            
-            <p>Once you've installed VS Code you may want to get some extensions so you can have a better editing experience while working with C#.</p>
-            <h3 class="text-3xl text-green-600 text-center">Download .NET Core 3.1</h3>
-            <p>The .NET Core runtime is required in order to run .NET applications.</p>
-            <h3>Get the dotnet CLI</h3>
-            <h3>(optional) Copy and add the dotnet feather template repository</h3>
-            <h3>Next steps - try Hello World</h3>
+            <p class="p-8">Once you've installed VS Code you may want to get some extensions so you can have a better editing experience while working with C#.</p>
+            <h3 class="h3 text-center">Download .NET Core 3.1</h3>
+            <p class="p-8">The .NET Core runtime is required in order to run .NET applications. You should get the latest SDK version. You can download it here:</p>
+            <p class="text-center">
+              <a class="underline" href="https://dotnet.microsoft.com/download/dotnet-core/3.1">.NET Core Download page</a>
+            </p>
+            <p class="p-8">The .NET SDK comes with the dotnet CLI. This CLI tool will allow you to create new projects and download nuget packages to enable the tutorials below.</p>       
+            <h3 class="h3 text-center">(optional) Copy and add the dotnet feather template repository</h3>
+            <p class="p-8">One of the great things the .NET CLI can do for you is quicky spin up a project by using <span class="code">dotnet new</span>. 
+            Unfortunately, the Feather HTTP project template does not yet come as a part of the CLI. However you can remedy this by creating your own featherhttp template.</p>
+            <p class="p-8">You can do this in several easy steps.</p>
+            <ol class="p-8 pt-0 pl-12">
+              <li>Clone this repository: <span class="code">git clone git@github.com:RobotOptimist/featherhttp-template.git</span></li>
+              <li>From the terminal, navigate to the root of the cloned repository</li>     
+              <li>run <span class="code">dotnet new -i ./</span></li>         
+            </ol>
+            <p class="p-8">Now you can spin up a new dotnet feather project any time you want by typing <span class="code">dotnet new featherhttp</span></p>
+            <p class=""></p>
+            <h3 class="h3 text-center">Next steps - try Hello World</h3>
           </div>
         </section>
         <section class="lg:flex flex-wrap justify-center">
