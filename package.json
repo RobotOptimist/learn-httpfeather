@@ -18,7 +18,9 @@
     "@nuxtjs/dotenv": "^1.4.0",
     "@nuxtjs/pwa": "^3.0.0-0",
     "nuxt": "^2.0.0",
-    "tailwindcss-transitions": "^2.1.0"
+    "prismjs": "^1.17.1",
+    "tailwindcss-transitions": "^2.1.0",
+    "vue-prism-component": "^1.1.1"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^1.0.0",

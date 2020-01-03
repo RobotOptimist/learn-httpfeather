@@ -30,4 +30,10 @@ export default {
   ol {
     @apply list-decimal list-inside
   }
+  section pre.language-csharp {
+    @apply bg-black pl-40
+  }
+  a {
+    @apply underline
+  }
 </style>

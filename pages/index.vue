@@ -1,5 +1,5 @@
 <template>
-  <div class="ml-10 p-10 pt-0">    
+  <div class="lg:ml-10 p-10 pt-0">    
     <div class="lg:flex lg:justify-center w-full">      
       <div class="lg:w-2/3 mt-6">
         <section>
@@ -14,9 +14,9 @@
             </p>            
             <p class="p-8">Once you've installed VS Code you may want to get some extensions so you can have a better editing experience while working with C#.</p>
             <h3 class="h3 text-center">Download .NET Core 3.1</h3>
-            <p class="p-8">The .NET Core runtime is required in order to run .NET applications. You should get the latest SDK version. You can download it here:</p>
+            <p class="p-8">The .NET Core runtime is required in order to run .NET applications. You should get the latest SDK version. You can download using the link below. The link will open in a new tab.</p>
             <p class="text-center">
-              <a class="underline" href="https://dotnet.microsoft.com/download/dotnet-core/3.1">.NET Core Download page</a>
+              <a class="underline" target="_blank" rel="noreferrer" href="https://dotnet.microsoft.com/download/dotnet-core/3.1">.NET Core Download page</a>
             </p>
             <p class="p-8">The .NET SDK comes with the dotnet CLI. This CLI tool will allow you to create new projects and download nuget packages to enable the tutorials below.</p>       
             <h3 class="h3 text-center">(optional) Copy and add the dotnet feather template repository</h3>
