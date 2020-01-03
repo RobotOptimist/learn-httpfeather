@@ -1,10 +1,5 @@
 export const state = () => ({
-    list: [ 
-            { 
-                title: 'Getting Started', 
-                category: 'root', 
-                description: 'Everything you need to start working with Feather HTTP right away' 
-            },
+    list: [            
             { 
                 title: 'Hello World', 
                 category: 'Examples',
