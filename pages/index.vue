@@ -28,9 +28,7 @@
               <li>From the terminal, navigate to the root of the cloned repository</li>     
               <li>run <span class="code">dotnet new -i ./</span></li>         
             </ol>
-            <p class="p-8">Now you can spin up a new dotnet feather project any time you want by typing <span class="code">dotnet new featherhttp</span></p>
-            <p class=""></p>
-            <h3 class="h3 text-center">Next steps - try Hello World</h3>
+            <p class="p-8">Now you can spin up a new dotnet feather project in a new directory any time you want by typing <span class="code">dotnet new featherhttp</span></p>            
           </div>
         </section>
         <section class="lg:flex flex-wrap justify-center">
