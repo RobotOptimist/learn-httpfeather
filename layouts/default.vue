@@ -15,5 +15,7 @@ export default {
 </script>
 
 <style>
-
+  .h1 {
+    @apply text-5xl text-green-600 font-semibold;
+  }
 </style>

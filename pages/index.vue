@@ -1,6 +1,6 @@
 <template>
   <div class="p-10 pt-0">
-    <h1 class="mt-6 text-5xl text-green-600 font-semibold leading-tight text-center">Learn .NET Feather HTTP</h1>
+    <h1 class="mt-6 h1 leading-tight text-center">Learn .NET Feather HTTP</h1>
     <div class="lg:flex lg:justify-center w-full">
       <div class="lg:max-w-md lg:w-1/5 hidden lg:block">
         <topics-list></topics-list>
