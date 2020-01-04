@@ -16,13 +16,13 @@ export default {
 
 <style lang="postcss">
   .h1 {
-    @apply text-5xl text-green-600 font-semibold;
+    @apply text-5xl text-green-800 font-semibold;
   }
   .h2 {
-    @apply text-4xl text-green-600
+    @apply text-4xl text-green-800
   }
   .h3 {
-    @apply text-3xl text-green-600
+    @apply text-3xl text-green-800
   }
   .code {
     @apply bg-gray-400 p-1 font-mono
