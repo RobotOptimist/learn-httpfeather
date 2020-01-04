@@ -36,4 +36,10 @@ export default {
   a {
     @apply underline
   }
+  p, ol {
+    @apply text-xl p-4;
+    @screen lg {
+      @apply text-base p-8;
+    }
+  }
 </style>

@@ -1,6 +1,6 @@
 <template>
     <nav>
-      <div class="flex flex-row justify-between">
+      <div class="flex flex-row justify-between w-full">
         <div class="flex flex-col">
           <nuxt-link class="text-green-600 text-xs font-bold underline" to="/">Home</nuxt-link>
           <a class="text-green-600 text-xs font-bold underline" href="https://github.com/davidfowl/FeatherHttp">.NET Feather HTTP GitHub</a>
